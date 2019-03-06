@@ -8,7 +8,7 @@ server:
 spring:
     profiles: dev #策略
     application:
-        name: springcloud-role-config
+        name: springcloud-role
 eureka:
     client:
         service-url:
@@ -19,7 +19,7 @@ server:
 spring:
     profiles: test #策略
     application:
-        name: springcloud-role-config
+        name: springcloud-role
 eureka:
     client:
         service-url:
